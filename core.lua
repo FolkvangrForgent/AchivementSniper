@@ -3,4 +3,5 @@ local function eventHandler()
 end
  
 local f = CreateFrame("Frame")
-f:SetScript("ACHIEVEMENT_EARNED", eventHandler)
+f:SetScript("OnEvent", eventHandler)
+f:RegisterEvent("ACHIEVEMENT_EARNED")

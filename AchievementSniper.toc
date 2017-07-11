@@ -1,1 +1,7 @@
-##
+## Interface: 70200
+## Title: Achievement Sniper
+## Notes: Takes a screenshot when a new achievement pops up.
+## Author: Forgent
+## Version: 0.5
+
+core.lua

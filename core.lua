@@ -1,5 +1,5 @@
 local function eventHandler()
-	
+	Screenshot()
 end
  
 local f = CreateFrame("Frame")

@@ -1,6 +1,6 @@
 ## Interface: 70200
 ## Title: Achievement Sniper
-## Notes: Takes a screenshot when a new achievement pops up.
+## Notes: An automatic screenshot addon. Currently supports Achivements.
 ## Author: Forgent
 ## Version: 0.5
 

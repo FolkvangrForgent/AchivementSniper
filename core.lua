@@ -1,7 +1,11 @@
-local function eventHandler()
+local function TakeScreenShot()
 	Screenshot()
 end
  
-local f = CreateFrame("Frame")
-f:SetScript("OnEvent", eventHandler)
-f:RegisterEvent("ACHIEVEMENT_EARNED")
+local af = CreateFrame("Frame")
+af:SetScript("OnEvent", TakeScreenShot)
+af:RegisterEvent("ACHIEVEMENT_EARNED")
+
+--local f = CreateFrame("Frame")
+--f:SetScript("OnEvent", TakeScreenShot)
+--f:RegisterEvent("ACHIEVEMENT_EARNED")

@@ -1,8 +1,7 @@
 ## Interface: 70200
 ## Title: Achievement Sniper
-## Notes: An automatic screenshot addon. Currently supports Achivements.
+## Notes: An automatic screenshot addon for Achivements.
 ## Author: Forgent
 ## Version: 0.5
 
 core.lua
-interface.lua
